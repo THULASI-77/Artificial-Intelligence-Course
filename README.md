@@ -41,16 +41,3 @@ This project analyzes flight performance and delay metrics by merging operationa
 
 ---
 
-## Setup & Running the Notebook
-
-### Requirements
-* Python 3.8+
-* `pandas`
-* `numpy`
-* `matplotlib`
-* `seaborn`
-
-### Instructions
-1. Ensure `flights.csv` and `airlines.csv` are placed inside a `data/` directory (or the root directory alongside the notebook).
-2. Open the notebook in Jupyter Notebook, JupyterLab, or VS Code.
-3. Run cells sequentially from Step 1 through Step 6.
