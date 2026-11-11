@@ -1,4 +1,6 @@
-# Flight Delays Analysis (Day 21 Project)
+# Project 1
+
+# Flight Delays Analysis 
 
 **Prepared by:** [Thulasi.P]  
 **Course/Program:** Project B — Flight Delays  
@@ -40,4 +42,73 @@ This project analyzes flight performance and delay metrics by merging operationa
 * **Chart 4:** Delay Duration Frequency Distribution
 
 ---
+# Project 2
+
+
+# Heart Disease Prediction Using Logistic Regression
+
+## Project Overview
+
+This project uses **Machine Learning and Logistic Regression** to predict the 10-year risk of coronary heart disease (CHD) based on patient health information.
+
+The model analyzes medical attributes such as age, gender, blood pressure, cholesterol, smoking habits, diabetes, and other health-related factors to estimate the probability of developing coronary heart disease within ten years.
+
+## Objectives
+
+- Understand and analyze the heart disease dataset.
+- Perform data cleaning and preprocessing.
+- Handle missing values and duplicate records.
+- Explore important features using data visualization.
+- Train a Logistic Regression classification model.
+- Evaluate model performance using classification metrics.
+- Predict the probability of heart disease for new records.
+
+## Dataset Information
+
+**Dataset:** Heart Disease Prediction Using Logistic Regression
+
+**Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/dileep070/heart-disease-prediction-using-logistic-regression)
+
+- Total records: 4,238
+- Total columns: 16
+- Target variable: `TenYearCHD`
+
+### Features Used
+
+| Feature | Description |
+|---|---|
+| male | Gender |
+| age | Age of the patient |
+| education | Education level |
+| currentSmoker | Current smoking status |
+| cigsPerDay | Cigarettes smoked per day |
+| BPMeds | Blood pressure medication |
+| prevalentStroke | Previous stroke history |
+| prevalentHyp | Hypertension status |
+| diabetes | Diabetes status |
+| totChol | Total cholesterol |
+| sysBP | Systolic blood pressure |
+| diaBP | Diastolic blood pressure |
+| BMI | Body Mass Index |
+| heartRate | Heart rate |
+| glucose | Glucose level |
+
+**Target variable:**
+- `TenYearCHD = 1`: CHD event within ten years.
+- `TenYearCHD = 0`: No recorded CHD event within ten years.
+
+## Technologies Used
+
+- Python
+- Google Colab
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Project Workflow
+
+1. Import the required Python libraries.
+2. Upload
 
